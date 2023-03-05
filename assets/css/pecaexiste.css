@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', 'sans-serif';
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(170, 218, 116) ;
+}
+
+.container {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding: 1rem;
+}
+
+.form-image img {
+    width: 31rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f8dea1d7;
+    padding: 3rem;
+}
+
+h1{
+    text-align: center;
+    background-color: #851944;
+    color: white;
+    font-family: "Lobster", cursive;
+
+}
+h2{
+    text-align: center;
+    background-color: #851944;
+    color: white;
+    font-family: "Lobster", cursive;
+
+}
+.caditem button{
+    border: none;
+    background-color: #acc2a5;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    
+}
+
+.caditem button:hover {
+    background-color:#88df96 ; 
+}
+
+.caditem button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    
+}

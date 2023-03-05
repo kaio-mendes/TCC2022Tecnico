@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.welcome {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+.welcome-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding: 1rem;
+}
+
+.welcome-image img {
+    width: 31rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', 'sans-serif';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2d2d2d;
+}
+
+.navegation{
+    position: relative;
+    height: 500px;
+    background: #474747;
+    width: 300px;
+    box-shadow: 10px 0 0 #f8f400;
+}
+
+.navegation ul{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding-left: 5px;
+padding-top: 40px;
+}
+
+.navegation ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+
+.navegation ul li a{
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;  
+}
+
+.navegation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60 px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.navegation ul li a .icon ion-icon{
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+.navegation ul li a .title{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+}

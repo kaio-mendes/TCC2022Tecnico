@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', 'sans-serif';
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(170, 218, 116) ;
+}
+
+.container {
+    width: 100%;
+    height: 100;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-image {
+    width: 40%;
+    height: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding: 1rem;
+}
+
+.form-image img {
+    width: 31rem;
+}
+
+
+
+.form {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.bck-button{
+    display: flex;
+    justify-content: baseline;
+    margin-right: 2rem;
+}
+
+.bck-button button{
+    border: none;
+    background-color: #5ce041;
+    padding: 0.4rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bck-button button:hover {
+    background-color:#ec5858 ; 
+}
+
+.bck-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+}
+
+.login-button button{
+    border: none;
+    background-color: #5ce041;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color:#ec5858 ; 
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color:#5ce041 ;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    margin-right: 2rem;
+    padding-right: 5rem;
+
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input::hover {
+    background-color: #eeeeee75;
+}
+
+
+
+
+.login-button2{
+    display: flex;
+    align-items:baseline;
+    
+    
+}
+
+.login-button2 button{
+    border: none;
+    background-color: #8641e0;
+    padding: 0.5rem 5rem;
+    border-radius: 8px;
+    cursor: pointer;
+        
+
+}
+
+.login-button2 button:hover {
+    background-color:#ec5858 ; 
+}
+
+.login-button2 button a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+    
+    
+}
+
+.input-box input:focus-visible  {
+    outline: 1px solid #ec5858;
+
+}
+
+
+
+/*responsivo
+@media screen and (max-width: 1330px){
+    .form-image{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1064px){
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+    .gender-input{
+        margin-top: 2rem;
+    }
+    .gender-group{
+        flex-direction: column;
+    }
+    .gender-input{
+        margin-top: 0.5rem;
+    }
+}*/
+
+.cadastro-button3{
+    display: flex;
+    align-items:baseline;
+}
+
+
+/*login button*/
+
+
+
+.login-button3 button{
+    border: none;
+    background-color: #8641e0;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.login-button3 button:hover {
+    background-color:#ec5858 ; 
+}
+
+.login-button3 button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.cadastro-button{
+    display: flex;
+    align-items: center;
+    
+}
+
+.cadastro-button button{
+    border: none;
+    background-color: #5ce041;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 2.1rem; 
+    
+}
+
+.cadastro-button button:hover {
+    background-color:#ec5858 ; 
+    
+}
+
+.cadastro-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    
+}
+
+
+/*img*/
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    margin-right: 2rem;
+    
+}
+
+.form-group input {
+    margin: 0.1rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.form-group input::hover {
+    background-color: #eeeeee75;
+}
+
+
+.form-group select {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    padding: 1rem;
+    appearance: none;
+    cursor: pointer;
+    width: 300px;
+    
+}
+
+
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    width:300px;
+    
+}
+
+.cat input {
+    margin: 0.6rem 0;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c; 
+    
+}
+
+.cat input::hover {
+    background-color: #eeeeee75;
+   
+}
+
+.cid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    margin-left: -24.5rem;
+   width: 5rem;
+   margin-top: 1rem;
+}
+
+.cid input {
+    margin: 0.6rem 0;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c; 
+    
+}
+
+.cid input::hover {
+    background-color: #eeeeee75;
+   
+}
+
+
+
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    width:300px; 
+    margin-right: 2rem;
+    
+}
+
+.mail input {
+    margin: 0.6rem 0;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c; 
+    
+}
+
+.mail input::hover {
+    background-color: #eeeeee75;
+   
+}
